@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "HKGrotesk-Bold";
+  src: url("./assets/fonts/HKGrotesk-Bold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "HKGrotesk-Semibold";
+  src: url("./assets/fonts/HKGrotesk-SemiBold.otf");
+  font-weight: 500;
+}
+
+:root {
+  --text-color-primary: #fff;
+  --text-color-secondary: #1565d8;
+  --font-family-primary: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: var(--font-family-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
